@@ -23,13 +23,13 @@ const services: ServicesType[] = [
   {
     title: "Python Automation",
     desc: "Streamlining complex operations through custom scripting, data scraping, and API integrations. Turning manual toil into automated efficiency",
-    icon: Database,
+    icon: Code,
     href: "",
   },
   {
     title: "Java Backend",
     desc: "Enterprise-grade server-side architecture using Spring Boot. Sca;able, secure, and resilient systems for mission-critical applications.",
-    icon: Code,
+    icon: Database,
     href: "",
   },
 ];

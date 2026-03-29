@@ -69,7 +69,7 @@ function renderCaseStudies() {
 
 export default function CaseStudy() {
   return (
-    <section className="bg-black min-h-screen px-8 py-12">
+    <section className="bg-black min-h-screen px-8 py-12 border-y-2 border-black">
       <div className="space-y-20">
         <div className="space-y-2">
           <TextAnimate
