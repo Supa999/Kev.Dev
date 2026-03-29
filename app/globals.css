@@ -4,9 +4,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-body {
-  background-color: var(--color-neutral-color);
-}
 
 @theme {
   --color-primary-color: #6366f1;

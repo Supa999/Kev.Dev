@@ -3,7 +3,7 @@ import CTAButtons from '../CTAButtons'
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-start justify-center gap-8 min-h-screen">
+    <section className="flex flex-col items-start justify-center gap-8 min-h-screen bg-black px-8 border-b-2 border-black">
       <div className="flex items-center gap-2 bg-neutral-700 px-3 py-0.5 rounded-2xl">
         <div className="w-2 h-2 rounded-2xl bg-secondary-color" />
       <p className="text-sm text-secondary-color">Open for freelance collaborations</p>
