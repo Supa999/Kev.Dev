@@ -33,15 +33,28 @@ function renderCaseStudies() {
   return caseStudies.map((caseStudy) => {
     return (
       <div key={caseStudy.title} className="bg-neutral-900 p-4">
-        <Image src={caseStudy.img} alt=""/>
+        {
+          //<Image src={caseStudy.img} alt=""/>
+        }
         <div className="flex flex-col items-start justify-center gap-5">
           <div className="flex items-center gap-2">
             {caseStudy.techStack.map((tech) => {
-              return <div key={tech} className="text-primary-color bg-neutral-800 rounded-2xl py-1.5 px-3 font-bold tracking-wide text-lg">{tech}</div>;
+              return (
+                <div
+                  key={tech}
+                  className="text-primary-color bg-neutral-800 rounded-2xl py-1.5 px-3 font-bold tracking-wide text-lg"
+                >
+                  {tech}
+                </div>
+              );
             })}
           </div>
-          <h3 className="text-white text-4xl font-bold tracking-tight">{caseStudy.title}</h3>
-          <p className="text-white/70 text-lg tracking-wide leading-8">{caseStudy.desc}</p>
+          <h3 className="text-white text-4xl font-bold tracking-tight">
+            {caseStudy.title}
+          </h3>
+          <p className="text-white/70 text-lg tracking-wide leading-8">
+            {caseStudy.desc}
+          </p>
           <Link
             href={caseStudy.href}
             className="w-full bg-neutral-800 text-white font-bold tracking-wide text-center text-lg py-1.5"
