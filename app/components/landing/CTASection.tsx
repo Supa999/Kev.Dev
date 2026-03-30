@@ -23,7 +23,7 @@ export default function CTASection() {
           >
             Ready to start your next technical project?
           </TextAnimate>
-          <TextAnimate animation="slideRight" as='p' className='text-white/70 text-lg tracking-wide leading-8 mt-10'>
+          <TextAnimate animation="slideRight" as='p' className='text-white/70 text-lg tracking-wide leading-8 mt-10' duration={0.7}>
             Whether you need a full-scale web application or custom automation logic, I&apos;m here to build it. Reach out for a consultation.
           </TextAnimate>
         </div>

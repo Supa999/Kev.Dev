@@ -28,7 +28,7 @@ const services: ServicesType[] = [
   },
   {
     title: "Java Backend",
-    desc: "Enterprise-grade server-side architecture using Spring Boot. Sca;able, secure, and resilient systems for mission-critical applications.",
+    desc: "Enterprise-grade server-side architecture using Spring Boot. Scalable, secure, and resilient systems for mission-critical applications.",
     icon: Database,
     href: "",
   },
