@@ -1,5 +1,6 @@
 import React from "react";
 import { TextAnimate } from "@/components/ui/text-animate";
+import ContactForm from '../../ContactForm'
 
 export default function CTASection() {
   return (
@@ -26,6 +27,7 @@ export default function CTASection() {
             Whether you need a full-scale web application or custom automation logic, I&apos;m here to build it. Reach out for a consultation.
           </TextAnimate>
         </div>
+        <ContactForm />
       </div>
     </section>
   );
