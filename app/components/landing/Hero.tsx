@@ -1,5 +1,6 @@
 import React from 'react'
 import CTAButtons from '../CTAButtons'
+import { TextAnimate } from '@/components/ui/text-animate'
 
 export default function Hero() {
   return (
@@ -11,7 +12,7 @@ export default function Hero() {
       <h2 className="text-white text-5xl font-bold tracking-tight leading-14">
         Custom <span className="italic text-primary-color">Web Experiences</span> Built with <span className="italic text-white text-shadow-[2px_2px_20px_#6366f1]">Modern Engineering</span> 
       </h2>
-      <p className='text-lg text-white/70 leading-relaxed'>Computer Science student blending academic rigor with freelance agility. Building high-performance, SEO-optimized websites designed to help your business scale while mastering the intersection of code and commerce.</p>
+      <TextAnimate animation='slideRight' as='p' duration={0.8} className='text-lg text-white/70 leading-relaxed'>Computer Science student blending academic rigor with freelance agility. Building high-performance, SEO-optimized websites designed to help your business scale while mastering the intersection of code and commerce.</TextAnimate>
       <CTAButtons />
     </section>
   )

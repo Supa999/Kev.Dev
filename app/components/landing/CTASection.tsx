@@ -4,7 +4,7 @@ import ContactForm from '../../ContactForm'
 
 export default function CTASection() {
   return (
-    <section className="bg-black border-y-2 border-black min-h-screen px-8 py-12">
+    <section className="bg-black border-y-2 border-black min-h-screen px-8 py-12" id='cta-section'>
       <div className="space-y-20">
         <div className="space-y-2">
           <TextAnimate
